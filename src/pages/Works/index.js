@@ -21,7 +21,7 @@ const Works = () => {
         <div className="page" id="works">
             <Helmet>
             <Helmet>
-          <meta name="description" content="React Portfolio | Javascript Developer | Monu Kumar Modi | mkmodi | Frontend Developer | React JS Developer | Software Engineer | " />
+          <meta name="description" content="React Portfolio| | Project | Javascript Developer | Monu Kumar Modi | mkmodi | Frontend Developer | React JS Developer | Software Engineer | " />
           <meta name="author" content="Monu Kumar Modi | mkmodi | Monu Kumar"></meta>
           <meta name="keywords" content="HTML, CSS, JavaScript, React JS, React hooks, Bootstrap, Context API, Semantic UI, Redux, Git | Debouncing" />
           </Helmet>
