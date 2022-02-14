@@ -1,10 +1,18 @@
 import React from 'react';
 import './index.scss';
 import Title from "../common/Title";
+import { Helmet } from 'react-helmet';
 
 const About = () => {
     return (
         <div className="page" id="about">
+            <Helmet>
+            <Helmet>
+          <meta name="description" content="React Portfolio | Javascript Developer | Monu Kumar Modi | mkmodi | Frontend Developer | React JS Developer | Software Engineer | " />
+          <meta name="author" content="Monu Kumar Modi | mkmodi | Monu Kumar"></meta>
+          <meta name="keywords" content="HTML, CSS, JavaScript, React JS, React hooks, Bootstrap, Context API, Semantic UI, Redux, Git" />
+          </Helmet>
+            </Helmet>
             <Title>
                 About Me
             </Title>

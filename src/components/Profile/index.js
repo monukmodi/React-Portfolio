@@ -7,12 +7,20 @@ import Skills from "../Skills";
 import {ThemeContext} from "../../context/ThemeContext";
 import {useAnimation} from "../../use/animation";
 import MonuImage from '../../images/monu.jpg'
+import { Helmet } from 'react-helmet';
 
 const Profile = () => {
     const { backgroundImage, type } = useContext(ThemeContext);
     const { animation } = useAnimation();
     return (
         <div className="profile">
+            <Helmet>
+            <Helmet>
+          <meta name="description" content="React Portfolio | Javascript Developer | Monu Kumar Modi | mkmodi | Frontend Developer | React JS Developer | Software Engineer | " />
+          <meta name="author" content="Monu Kumar Modi | mkmodi | Monu Kumar"></meta>
+          <meta name="keywords" content="HTML, CSS, JavaScript, React JS, React hooks, Bootstrap, Context API, Semantic UI, Redux, Git" />
+          </Helmet>
+            </Helmet>
             <div className="profile__banner">
                 <div className={`profile__photo ${animation}`} style={{backgroundImage: `url(${backgroundImage})`}} />
                 <img

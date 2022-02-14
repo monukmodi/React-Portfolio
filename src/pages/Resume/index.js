@@ -3,10 +3,18 @@ import moment from 'moment';
 import Title from "../common/Title";
 import './index.scss';
 import ResumeItem from "./Item";
+import { Helmet } from 'react-helmet';
 
 const Resume = () => {
     return (
         <div className="page" id="resume">
+            <Helmet>
+            <Helmet>
+          <meta name="description" content="React Portfolio | Javascript Developer | Monu Kumar Modi | mkmodi | Frontend Developer | React JS Developer | Software Engineer | " />
+          <meta name="author" content="Monu Kumar Modi | mkmodi | Monu Kumar"></meta>
+          <meta name="keywords" content="HTML, CSS, JavaScript, React JS, React hooks, Bootstrap, Context API, Semantic UI, Redux, Git" />
+          </Helmet>
+            </Helmet>
             <Title icon={'fa fa-briefcase'}>
                 Resume - Total Experience {moment().diff('10/25/2019', 'years', true).toFixed(1)} Years
             </Title>

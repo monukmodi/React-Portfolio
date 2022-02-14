@@ -16,6 +16,7 @@ import Resume from "./pages/Resume";
 import Works from "./pages/Works";
 import Contact from "./pages/Contact";
 import BackToTop from "./components/BackToTop";
+import { Helmet } from 'react-helmet';
 
 const routes = [
     { path: '/', name: 'About', Component: About },
@@ -26,6 +27,11 @@ function App() {
   return (
       <>
           <BackToTop />
+          <Helmet>
+          <meta name="description" content="React Portfolio | Javascript Developer | Monu Kumar Modi | mkmodi | Frontend Developer | React JS Developer | Software Engineer | " />
+          <meta name="author" content="Monu Kumar Modi | mkmodi | Monu Kumar"></meta>
+          <meta name="keywords" content="HTML, CSS, JavaScript, React JS, React hooks, Bootstrap, Context API, Semantic UI, Redux, Git" />
+          </Helmet>
         <div className="page-wrap">
             <BgBubbles />
             <Router>
@@ -58,9 +64,9 @@ const  AnimatedRoutes = withRouter(({location}) =>
                 <Route exact path="/works">
                     <Works/>
                 </Route>
-                <Route exact path="/contact">
+                {/* <Route exact path="/contact">
                     <Contact/>
-                </Route>
+                </Route> */}
             </Switch>
         </CSSTransition>
     </TransitionGroup>
