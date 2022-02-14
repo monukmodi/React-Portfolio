@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.a5743526.css",
+    "main.js": "/React-Portfolio/static/js/main.32ddb4f3.js",
+    "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/monu.jpg": "/React-Portfolio/static/media/monu.fbb8744511ae1d7e9cd5.jpg",
+    "static/media/ionicons.svg?v=2.0.1": "/React-Portfolio/static/media/ionicons.e9190273f3942224e920.svg",
+    "static/media/ionicons.ttf?v=2.0.1": "/React-Portfolio/static/media/ionicons.e9f4c425fc377740601b.ttf",
+    "static/media/js.png": "/React-Portfolio/static/media/js.e35fa00ecbbdd72590fe.png",
+    "static/media/ionicons.eot?v=2.0.1": "/React-Portfolio/static/media/ionicons.3e10c450f96bf28a6407.eot",
+    "static/media/ionicons.woff?v=2.0.1": "/React-Portfolio/static/media/ionicons.e5a4fae098c926d7f34b.woff",
+    "static/media/node.png": "/React-Portfolio/static/media/node.a8c363ae2dce5e61cea1.png",
+    "static/media/redux.jpg": "/React-Portfolio/static/media/redux.4516fe25edbc988a447e.jpg",
+    "static/media/react.png": "/React-Portfolio/static/media/react.ef20e673b9282f8f30fd.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.a5743526.css.map": "/React-Portfolio/static/css/main.a5743526.css.map",
+    "main.32ddb4f3.js.map": "/React-Portfolio/static/js/main.32ddb4f3.js.map",
+    "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5743526.css",
+    "static/js/main.32ddb4f3.js"
+  ]
+}
