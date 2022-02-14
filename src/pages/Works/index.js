@@ -9,7 +9,7 @@ const initalState = projects.filter(p => p.type === 'react');
 
 const Works = () => {
     const [selectedProjects, setSelectedProjects] = useState(initalState);
-    const [selectedType, setSelectedType] = useState('react');
+const [selectedType, setSelectedType] = useState('react');
 
     function handleMenuChange(type) {
         setSelectedProjects(projects.filter(p => p.type === type));
