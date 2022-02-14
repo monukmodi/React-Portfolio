@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.a5743526.css",
-    "main.js": "/React-Portfolio/static/js/main.32ddb4f3.js",
+    "main.js": "/React-Portfolio/static/js/main.2470b285.js",
     "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/monu.jpg": "/React-Portfolio/static/media/monu.fbb8744511ae1d7e9cd5.jpg",
     "static/media/ionicons.svg?v=2.0.1": "/React-Portfolio/static/media/ionicons.e9190273f3942224e920.svg",
@@ -14,11 +14,11 @@
     "static/media/react.png": "/React-Portfolio/static/media/react.ef20e673b9282f8f30fd.png",
     "index.html": "/React-Portfolio/index.html",
     "main.a5743526.css.map": "/React-Portfolio/static/css/main.a5743526.css.map",
-    "main.32ddb4f3.js.map": "/React-Portfolio/static/js/main.32ddb4f3.js.map",
+    "main.2470b285.js.map": "/React-Portfolio/static/js/main.2470b285.js.map",
     "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5743526.css",
-    "static/js/main.32ddb4f3.js"
+    "static/js/main.2470b285.js"
   ]
 }
