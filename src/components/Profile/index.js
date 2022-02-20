@@ -45,7 +45,12 @@ const Profile = () => {
                     Bangalore / India
                 </Info>
                 <Skills />
+                <div style={{marginTop:"30px"}} className='profile-badges'>
+                   <img style={{paddingRight:"20px"}} src="https://img.icons8.com/glyph-neue/28/000000/github.png"/>
+                   <img src="https://img.icons8.com/external-justicon-flat-justicon/28/000000/external-linkedin-social-media-justicon-flat-justicon.png"/>
+                </div>  
             </div>
+                
             <div className="profile__contact">
                 <a target="_blank" href="https://drive.google.com/file/d/16FE5dVQNZ4DfBbja8aOieQib0HyhLlud/view?usp=sharing">
                         <span>
