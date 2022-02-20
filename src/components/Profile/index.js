@@ -46,8 +46,8 @@ const Profile = () => {
                 </Info>
                 <Skills />
                 <div style={{marginTop:"30px"}} className='profile-badges'>
-                   <img style={{paddingRight:"20px"}} src="https://img.icons8.com/glyph-neue/28/000000/github.png"/>
-                   <img src="https://img.icons8.com/external-justicon-flat-justicon/28/000000/external-linkedin-social-media-justicon-flat-justicon.png"/>
+                 <a target='_blank' href='https://github.com/monukmodi/'> <img style={{paddingRight:"20px"}}  src="https://img.icons8.com/glyph-neue/28/000000/github.png"/> </a>  
+                 <a target='_blank' href='https://www.linkedin.com/in/monukmodi/'> <img src="https://img.icons8.com/external-justicon-flat-justicon/28/000000/external-linkedin-social-media-justicon-flat-justicon.png"/> </a>
                 </div>  
             </div>
                 
